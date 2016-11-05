@@ -27,10 +27,10 @@ public class SampleActivity extends Activity {
     /**
      * mac和服务uuid纯属测试，测试时请替换真实参数。
      */
-    public String UUID_SERVICE = "6e400000-0000-0000-0000-000011112222";
+    public String UUID_SERVICE = "ff12";
 
-    public String UUID_CHAR_WRITE = "6e400001-0000-0000-0000-000011112222";
-    public String UUID_CHAR_READ = "6e400002-0000-0000-0000-000011112222";
+    public String UUID_CHAR_WRITE = "ff01";
+    public String UUID_CHAR_READ = "ff02";
 
     public String UUID_DESCRIPTOR = "00002902-0000-1000-8000-00805f9b34fb";
     public String UUID_DESCRIPTOR_WRITE = "00002902-0000-1000-8000-00805f9b34fb";
@@ -50,7 +50,7 @@ public class SampleActivity extends Activity {
     /**
      * mac和服务uuid纯属测试，测试时请替换真实参数。
      */
-    private static String MAC = "00:00:00:AA:AA:AA";
+    private static String MAC = "EC:24:B8:06:28:0B";
 
     /**
      * Called when the activity is first created.
